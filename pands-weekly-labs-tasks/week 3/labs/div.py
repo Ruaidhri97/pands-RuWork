@@ -1,0 +1,5 @@
+x = int (input ("Enter a number: "))
+y = int (input ("Enter a number: "))
+output1 = int (x//y)
+output2 = int (x%y)
+print ("{} divided by {} is {} with remainder {}".format(x, y, output1, output2))
