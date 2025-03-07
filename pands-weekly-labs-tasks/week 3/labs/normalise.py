@@ -1,0 +1,6 @@
+string1 = input("Enter a word: ")
+output = string1.strip().lower()
+length1 = len(string1)
+length2 = len(output)
+print (f"Normalised, this should read: {output}")
+print (f"We reduced number of characters from {length1} to {length2}")
